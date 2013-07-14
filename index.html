@@ -14,8 +14,49 @@
 			body {
 				padding-top: 60px;
 			}
-			
+			.linediv-l {
+				border-left: 1px white solid;
+			}
+			.linediv-r {
+				border-right: 1px white solid;
+			}
 		}
+		/* Landscape Phones and Down */
+		@media (max-width: 480px) {
+			.copy {
+				padding:2.5% 10%;
+			}
+			.linediv-l {
+				border-bottom: 1px white solid;
+			}
+			.linediv-r {
+				border-top: 1px white solid;
+			}
+		}
+		
+		/* All form factors */
+		
+		/* Main Body and Headings */
+		body{
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		}
+		.heading, .subheading {
+			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+			text-align: center;
+		}
+		p.lead {
+			padding-top: 1.5%;
+			font-size: 24px;
+			line-height: 30px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		
+		
+		
+		
 			.container {
 				width: 960px;
 			}
